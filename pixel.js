@@ -23,7 +23,7 @@ export const pixelHandler = async (conn, m, config) => {
         if (!body) return;
 
         // Muro de Privado para usuarios no dueños
-        if (!isGroup && !isOwner && body.toLowerCase() !== 'code') return;
+       // if (!isGroup && !isOwner && body.toLowerCase() !== 'code') return;
 
         const allPrefixes = config.allPrefixes || ['#', '!', '.'];
         const usedPrefix = allPrefixes.find(p => body.startsWith(p));
