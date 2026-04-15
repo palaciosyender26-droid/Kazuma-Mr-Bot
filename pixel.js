@@ -56,3 +56,5 @@ export const pixelHandler = async (conn, m, config) => {
         console.error(chalk.red('[ERROR PIXEL]'), err);
     }
 };
+
+ //if (m.key.fromMe && !isOwner) return;
