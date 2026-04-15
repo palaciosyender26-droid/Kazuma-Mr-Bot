@@ -1,7 +1,7 @@
 export const config = {
     botName: 'Kazuma - Bot',
     owner: [
-        '573508941325@s.whatsapp.net', 
+        '584147334369@s.whatsapp.net', 
         '125860308893859@lid'
     ], 
     prefix: '#',
